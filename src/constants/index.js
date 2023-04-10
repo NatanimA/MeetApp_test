@@ -7,8 +7,8 @@ import { WebSocketLink } from '@apollo/client/link/ws'
 
 
 // Change GraphQl End Points
-const SUBSCRIPTION_LINK = 'ws://localhost:3030/graphql'
-const HTTP_LINK = 'http://localhost:3030/graphql'
+const SUBSCRIPTION_LINK = 'ws://meetapp.onrender.com/graphql'
+const HTTP_LINK = 'https://meetapp.onrender.com/graphql'
 
 const appId = "832e475dcfa445a48fa706959fbe113e"; //ENTER APP ID HERE
 let token = ''
